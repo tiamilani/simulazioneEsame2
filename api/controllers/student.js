@@ -84,9 +84,9 @@ exports.addStudent = function(req, response) {
 	}
 
     var json ={
-        assignmentType: assignment_type,
-        studentId: student_id,
-        assignmentId: assigment_id,
+        assignment_Type: assignment_type,
+        student_Id: student_id,
+        assignment_Id: assigment_id,
         content: Content
     };
 
