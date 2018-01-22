@@ -1,0 +1,6 @@
+cd cartella
+git init
+git add --all
+git commit -m "aggiunto file con la lista dei comandi"
+git remote add origin https://github.com/tiamilani/*******.git
+git push -u origin master
