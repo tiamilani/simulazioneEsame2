@@ -4,3 +4,38 @@ git add --all
 git commit -m "aggiunto file con la lista dei comandi"
 git remote add origin https://github.com/tiamilani/*******.git
 git push -u origin master
+
+login heroku
+mattia.milani@studenti.unitn.it
+M1.ilani96
+
+creare la app sul sito
+
+heroku git:remote -a simulazioneesame2 
+
+creare il branch su cui inserire i file
+git branch *****
+git checkout *****
+
+copiare i file dell'altro progetto
+
+pushare sul proprio branch le modifiche
+pushare su heroku per avere i file anche lì
+git push heroku *****:master
+
+heroku open e test con postman
+
+per i test basta dare il comadno: postman
+inserire la url
+per inviare un json selezionare body, raw, al posto di text inserire il tipo json
+
+per installare i paccehtti necessari
+npm install nome_pacchetto
+
+Test del progetto
+Creare la cartella Test
+
+creare il file api.test.js
+instalare con npm install i componenti necessari
+se si fanno modifiche al progetto ricaricarle su heroku
+npm test per far partire i test
