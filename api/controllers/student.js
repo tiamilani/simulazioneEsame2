@@ -61,9 +61,9 @@ exports.addStudent = function(req, response) {
 		return;
 	}
 
-    var assigment_id  = req.body.assigment_id
+    var assignment_id  = req.body.assignment_id
 
-	if(assigment_id == null || assigment_id == undefined){
+	if(assignment_id == null || assignment_id == undefined){
 		response.writeHead(404, {"Content-Type": "application/json"});
 		response.end(JSON.stringify({
 			code: "003",
@@ -84,9 +84,9 @@ exports.addStudent = function(req, response) {
 	}
 
     var json ={
-        assignment_Type: assignment_type,
-        student_Id: student_id,
-        assignment_Id: assigment_id,
+        assignment_type: assignment_type,
+        student_id: student_id,
+        assignment_id: assigment_id,
         content: Content
     };
 
