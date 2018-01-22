@@ -93,7 +93,6 @@ exports.addStudent = function(req, response) {
     assignments.push(json);
 
 	response.json(JSON.stringify(json));
-	//response.writeHead(200, {"Content-Type": "application/json"});
 };
 
 exports.modifyStudent = function(req, response) {
