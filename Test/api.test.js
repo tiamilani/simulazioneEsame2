@@ -2,10 +2,10 @@ const httpMocks = require('node-mocks-http');
 const controller = require('./../api/controllers/student');
 
 const inputCorretto = {
-  assignment_type: "ea",
-  student_id: "ut velit",
-  assigment_id: "amet nostrud",
-  content: {}
+  "assignment_type": "ea",
+  "student_id": "ut velit",
+  "assigment_id": "amet nostrud",
+  "content": {}
 }
 
 describe('example', () => {
